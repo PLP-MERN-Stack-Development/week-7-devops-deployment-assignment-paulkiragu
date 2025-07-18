@@ -1,8 +1,8 @@
 import axios from "axios";
 import { io } from "socket.io-client"
 
-const BaseUrl = "http://localhost:5001";
-const APIBaseUrl = "http://localhost:5001/api";
+const BaseUrl = "https://week-7-devops-deployment-assignment-l5gz.onrender.com";
+const APIBaseUrl = "https://week-7-devops-deployment-assignment-l5gz.onrender.com/api";
 
 const API = axios.create({
     baseURL: APIBaseUrl,
